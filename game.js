@@ -122,6 +122,7 @@
 
     if(key.isPressed("t"))
       this.addAsteroids(2);
+
   }
 
   Game.prototype.fireBullet = function() {

@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>DA BEST ASTEROID GAME EVAAA</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="moving_object.js"></script>
     <script src="inherit.js"></script>
     <script src="asteroid.js"></script>
@@ -14,6 +15,8 @@
 </head>
 <body>
     <canvas width="900" height="600"></canvas>
+    <br>
+    <p> W A S D to move. F to fire. T to spawn asteroids. B to drop a bomb. <button class="restart">New Game</button> </p>
     <script>
       var canvas = document.getElementsByTagName("canvas")[0];
       var ctx = canvas.getContext("2d")
@@ -24,6 +27,13 @@
         img.src = 'space.jpg';
         var asteroid = new Asteroids.Game(ctx);
         asteroid.start();
+
+
+
+        $(".restart").click(function(){
+            window.location.reload()   
+        });
+
     </script>
 </body>
 </html>

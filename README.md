@@ -1,9 +1,9 @@
 ##Asteroids 
 
-This is an Asteroid game made on week 6 day 3. 
-My partner was TJ.
+This a class asteroid arcade game.
 
   + W A S D to move. F to Fire. B for bomb. T to spawn more asteroids.
-  + This was made entirely of javascript and canvas
+  + This was made entirely with javascript and html canvas
+  + An extra feature to allow players to drop a bomb
 
 To play just clone the game and open up index.html
